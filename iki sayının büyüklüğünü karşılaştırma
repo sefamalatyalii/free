@@ -1,0 +1,15 @@
+%kullanıcıdan girilen iki sayının büyüklüğünü karsılastıran program
+clc;
+clear;
+clear all;
+
+a=input('a sayısı giriniz=');
+b=input('b sayısı giriniz=');
+
+if a<b
+    fprintf('%d sayisi %d sayisindan küçüktür',a,b)
+elseif a>b
+    fprintf('%d sayisi %d sayisindan büyüktür',a,b)
+else
+    fprintf('%d sayisi %d sayisina esittir',a,b)
+end
