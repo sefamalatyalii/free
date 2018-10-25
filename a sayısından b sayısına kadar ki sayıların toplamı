@@ -1,0 +1,14 @@
+% a sayısından b sayısına kadar olan sayıların toplamını bulan program
+clc;
+clear;
+clear all;
+
+a=input('a sayısı giriniz=');
+b=input('b sayısı giriniz=');
+toplam=0;
+
+for a=a:1:b
+toplam=toplam+a;  
+end
+
+fprintf('%d sayisindan %d sayısına kadar sayıların toplamı=%d sayısıdır',a,b,toplam)
